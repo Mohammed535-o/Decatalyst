@@ -81,7 +81,8 @@ bool ArmStrong_Check(int n)
         //and get the sum of digits raised to the power of no. of digits in the given number.
         n /= 10;
     }
-    if(sum==temp)
+    if(sum==temp)//checking if obtained sum is equal to original value of given number
+    ///if equal then return true else false.
         return true;
     return false;
 }
